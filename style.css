@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+
+}
+header,footer{
+    background-color: red;
+    width:100%;
+    color: whitesmoke;
+}
+header h2{
+    font-size: 35px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 25px;
+    height: 10%;
+    padding: 15px;
+
+}
+.logo{
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    padding: 0 15px;
+    text-transform: capitalize;
+    transition: all 0.2s ease-in;
+
+}
+nav ul li a:hover{
+    color: whitesmoke;
+}
+button{
+    background-color: blueviolet;
+    /*paddimg:30px,50pxpx;*/
+    border-radius: 20px;
+    color: aquamarine;
+    width: 50px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+
+
+}
+button:hover{
+    color: rgb(14, 14, 12);
+}
